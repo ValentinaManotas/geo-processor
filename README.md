@@ -86,7 +86,7 @@ The decision to separate each service (frontend, backend, and microservice) into
    - **Reasoning**: By having separate services, each one can be scaled based on its load, ensuring that the system as a whole can handle increased demand efficiently.
 
 
-5. **Frontend Homepage**:
+### Frontend Homepage
 
 The following screenshot showcases the homepage of the project, built with Next.js. It allows users to interact with the interface to input coordinates and view the results of geospatial processing.
 
