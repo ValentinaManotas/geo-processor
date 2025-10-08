@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  geo-processor:
+    build:
+      context: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app 
+    environment:
+      - TZ=America/Bogota
+    command: ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000", "--reload"]
+    stdin_open: true
+    logging:
+      driver: "json-file"

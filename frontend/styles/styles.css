@@ -1,0 +1,120 @@
+.landing-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  background-color: #f3f9f8;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.landing-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.title {
+  font-size: 3em;
+  color: #2b7a4b;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 1.2em;
+  color: #5f6368;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.input-field {
+  padding: 12px;
+  border: 2px solid #008c72;
+  border-radius: 8px;
+  width: 200px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: #006a4d;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.button {
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.primary {
+  background-color: #006a4d;
+  color: white;
+}
+
+.secondary {
+  background-color: #4b8e8d;
+  color: white;
+}
+
+.clear {
+  background-color: #ff5c5c;
+  color: white;
+}
+
+.button:hover {
+  opacity: 0.9;
+}
+
+.points-list {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.points-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.points-list li {
+  background-color: #e0f7fa;
+  padding: 8px;
+  margin: 5px 0;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .input-group {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .button-group {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+
+.error-text {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}

@@ -1,0 +1,5 @@
+fastapi[standard]==0.115.12
+fastapi-pagination==0.12.10
+pydantic-settings==2.8.1
+pydantic==2.8.1
+uvicorn==0.20.0
